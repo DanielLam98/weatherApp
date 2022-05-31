@@ -2,9 +2,74 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Getting Started</title>
+    <script
+      src="https://kit.fontawesome.com/1f9b83b720.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Weather App</title>
   </head>
   <body>
+    <!--Background Image provided by Nitish Meena on Unsplash-->
+    <header>
+      <h1><i class="fa-solid fa-cloud-meatball"></i> Cloudy Meatball</h1>
+    </header>
+    <div class="mainSection">
+      <div class="topSection">
+        <section class="today"></section>
+        <div class="inputLocation">
+          <form>
+            <label for="weatherLocation">City:</label>
+            <input
+              type="text"
+              name="weatherLocation"
+              id="weatherLocation"
+              placeholder="Vancouver"
+            />
+            <button class="searchWeather">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
+        <section class="todayDetailedDescription">
+          <div class="descriptionSections">
+            <div class="descriptionImg">
+              <i class="fa-solid fa-wind fa-3x"></i>
+            </div>
+            <div class="descriptionInfo">
+              <div><h3>Wind Speed</h3></div>
+              <div></div>
+            </div>
+          </div>
+          <div class="descriptionSections">
+            <div class="descriptionImg">
+              <i class="fa-solid fa-temperature-full fa-3x"></i>
+            </div>
+            <div class="descriptionInfo">
+              <div><h3>Feels Like</h3></div>
+              <div></div>
+            </div>
+          </div>
+          <div class="descriptionSections">
+            <div class="descriptionImg">
+              <i class="fa-solid fa-droplet fa-3x"></i>
+            </div>
+            <div class="descriptionInfo">
+              <div><h3>Humidity</h3></div>
+              <div></div>
+            </div>
+          </div>
+          <div class="descriptionSections">
+            <div class="descriptionImg">
+              <i class="fa-solid fa-cloud-rain fa-3x"></i>
+            </div>
+            <div class="descriptionInfo">
+              <div><h3>Chance Of Rain</h3></div>
+              <div></div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
     <script src="bundle.js"></script>
   </body>
 </html>
