@@ -84,6 +84,12 @@ form label {
 form {
   position: relative;
 }
+
+form label {
+  text-align: center;
+  transform: translateY(-50%);
+  top: 50%;
+}
 form input {
   border: 1px solid #ccc;
   outline: none;
@@ -107,12 +113,12 @@ form button {
 .todayDetailedDescription {
   display: flex;
   flex-direction: column;
-  gap: 5px;
   width: 20%;
   justify-content: space-around;
 }
 .descriptionSections {
   display: flex;
+  gap: 15px;
 }
 
 .descriptionImg {
@@ -120,8 +126,19 @@ form button {
   text-align: center;
   align-self: center;
 }
+
+.descriptionImg i {
+  font-size: 3rem;
+  color: white;
+  text-shadow: -1px -1px 0 #000;
+}
+
 .descriptionInfo {
   flex-grow: 1;
+}
+
+.descriptionInfo div {
+  text-shadow: -1px -1px 0 #ccc;
 }
 
 div {
@@ -138,9 +155,21 @@ div {
   padding-top: 80px;
 }
 
+.dailyWeatherForecast {
+  padding: 10px;
+  color: white;
+  text-shadow: -1px -1px 0 #000;
+}
+
+.dailyWeatherForecast h3,
+h4 {
+  text-align: center;
+}
+
 .mainAndDate {
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
 }
 
 /*extra styling*/
