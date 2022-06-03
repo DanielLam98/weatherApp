@@ -2,7 +2,7 @@
 
 This project grabs an input from the user and displays todays weather and other extra information such as humidity, wind, chance of clouds and feels like temperature. Moreover, it will also display a forecast for the next 5 days.
 
-Link to project:
+Link to project: https://daniellam98.github.io/weatherApp/
 
 <img width="1170" alt="Screen Shot 2022-06-02 at 4 45 30 PM" src="https://user-images.githubusercontent.com/53108052/171758138-aaba0b85-2ff2-4f51-ba4e-6f8f04c5ecf0.png">
 
